@@ -1,33 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-/*
-void for_cat(){
-  string feline;
-  cout<<"name a cat breed: ";
-  cin >> feline;
-  if(feline == "ragdoll")
-  {
-    cout<< feline <<" is my favorite cat, too."<<endl;
-  }else
-  {
-    cout<<"I love all the cat!\n";
-  }
-}
 
-void for_dog(){
-  string canine;
-  cout<<"name a dog breed: ";
-  cin >> canine;
-  if(canine == "chihuahua")
-  {
-    cout<< canine <<" is my favorite dog, too."<<endl;
-  }else
-  {
-    cout<<"not my type dog\n";
-  }
-}
-*/
 void ask_dog();
 void ask_cat();
   void ask(string animal_type);
