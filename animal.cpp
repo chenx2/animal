@@ -28,17 +28,27 @@ void for_dog(){
   }
 }
 */
-void ask(string animal_type);
-  string get_input(string animal_type);
-  string get_output(string input, string animal_type);
-    string get_default_message(string animal_type);
-    string get_favorite(string animal_type);
-      string get_selection(string animal_type, string option_a, string option_b);
+void ask_dog();
+void ask_cat();
+  void ask(string animal_type);
+    string get_input(string animal_type);
+    string get_output(string input, string animal_type);
+      string get_default_message(string animal_type);
+      string get_favorite(string animal_type);
+        string get_selection(string animal_type, string option_a, string option_b);
 
 int main() {
-  ask("dog");
-  ask("cat");
+  ask_dog();
+  ask_cat();
   return 0;    
+}
+
+void ask_dog(){
+  ask("dog");
+}
+
+void ask_cat(){
+  ask("cat");
 }
 
 void ask(string animal_type){
